@@ -1,5 +1,6 @@
 local function main()
 	init()
+	_G.g = nil -- So other programs can reuse it.
 end
 
 

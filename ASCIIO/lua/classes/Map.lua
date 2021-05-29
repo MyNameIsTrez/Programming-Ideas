@@ -1,5 +1,5 @@
 local function new()
-	game.states = {}
+
 end
 
 

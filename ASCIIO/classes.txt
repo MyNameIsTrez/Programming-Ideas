@@ -1,4 +1,4 @@
-Game
+Main
 	main()
 		init()
 			get_constants()

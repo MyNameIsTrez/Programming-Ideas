@@ -6,7 +6,7 @@ end
 
 
 local function get_mod_names()
-	-- g.path.mods
+	-- g.mods_path
 	local mod_names = {}
 
 	return mod_names
@@ -22,7 +22,7 @@ end
 
 local function get_mod_entity_names(mod)
 	local mod_entity_names = {}
-	local mod_entities_path = path.join(mods_path, mod, g.path.entities)
+	local mod_entities_path = path.join(mods_path, mod, g.entities_path)
 	for _, type_name in ipairs(mod_entities_path) do
 		table.insert(mod_entity_names, type_name)
 	end

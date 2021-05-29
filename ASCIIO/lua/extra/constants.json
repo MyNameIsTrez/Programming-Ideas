@@ -1,6 +1,4 @@
 {
-	"path": {
-		"mods": "mods",
-		"entities": "Entities"
-	}
+	"mods_path": "mods",
+	"entities_path": "Entities"
 }

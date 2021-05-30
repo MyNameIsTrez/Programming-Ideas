@@ -1,3 +1,0 @@
-local function draw()
-
-end
